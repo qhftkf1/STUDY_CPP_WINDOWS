@@ -1,16 +1,16 @@
-/*
+ï»¿/*
 	WBCS1.cpp
 */
 
-//#include<stdio.h>
-//#include<string.h>
-//
-//int main(void)
-//{
-//	wchar_t str[] = L"ABC";
-//	int size = sizeof(str);
-//	int len = wcslen(str);
-//
-//	printf("¹è¿­ÀÇ Å©±â: %d \n", size);
-//	printf("¹®ÀÚ¿­ÀÇ ±æÀÌ: %d \n", len);
-//}
+#include<stdio.h>
+#include<string.h>
+
+int main(void)
+{
+	wchar_t str[] = L"ABC";
+	int size = sizeof(str);
+	int len = wcslen(str);
+
+	printf("ë°°ì—´ì˜ í¬ê¸°: %d \n", size);
+	printf("ë¬¸ìì—´ì˜ ê¸¸ì´: %d \n", len);
+}
